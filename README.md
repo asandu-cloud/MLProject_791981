@@ -29,7 +29,7 @@ Neural Font Classification for Ancient Text Digitization
 
     In terms of model accuracy, both training and validation accuracy increase steadily, reaching around 62% by epoch 50. The plot of the validation line, which fluctuates early on and stabilizes as we reach epoch 35, suggests that the model is learning generazible features rather than overfitting. 
 
-    ![Model 1 Loss](readme_accomp/Model_1_Loss.png)
+    ![Model 1 Loss](Model_1_Loss.png)
 
     *Figure 2: Loss statistics for Model 1 during training and validation*
 
