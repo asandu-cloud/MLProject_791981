@@ -23,7 +23,7 @@ Neural Font Classification for Ancient Text Digitization
 
 5. Results –  Our two convolutional neural networks used a classic 80/20 train test split to ensure consistency and comparability. To monitor overfitting, we implemened callbacks such as EarlyStopping and ReduceLRonPlateau, assuring the validity of our results. Both of our CNNs used real-time data augmentation during training, including random rotations, zoom, shifts and flipping which were applied to the resized images. Each model used a distinct set of augmentation parameters. This was done to achieve our aim of investigating the model's response to previously unseen historical text images. Model 1 presented promising statistics. However, the accuracy was not up to par with that required in practical use in the context of archival or digitization workflows where reliability is essential. The results of Model 1 can be seen below: 
 
-    ![Model 1 Accuracy](readme_accomp/Model_1_Accuracy.png)
+    ![Model 1 Accuracy](Model_1_Accuracy.png)
 
     *Figure 1: Accuracy statistics for Model 1 during training and validation*
 
@@ -37,13 +37,13 @@ Neural Font Classification for Ancient Text Digitization
 
     Model 2 performed significantly better than Model 1. Model 2 presented results which emphasized its usability in the context of archiving, making it appropriate for use in the case of the Library of Alexandria while boasting a 96% accuracy score. The detailed results for Model 2 are presented below:
 
-    ![Model 2 Accuracy](readme_accomp/Model_2_Accuracy.png)
+    ![Model 2 Accuracy](Model_2_Accuracy.png)
 
     *Figure 3: Accuracy statistics for Model 2 during training and validation.*
 
     Both training and validation accuracy improve rapidly in the first few epochs, with the training accuracy breaking the 90% mark by epoch 5. Past the epoch 5 mark, both curves continue to rise slowly, with training accuracy presenting a value of 96% at epoch 30 and validation accuracy presenting a slightly lower accuracy score. 
 
-    ![Model 2 Loss](readme_accomp/Model_2_Loss.png)
+    ![Model 2 Loss](Model_2_Loss.png)
 
     *Figure 4: Loss statistics for Model 2 during training and validation*
 
@@ -86,7 +86,7 @@ Neural Font Classification for Ancient Text Digitization
 
     The most common mistakes made by the model are presented above. Out of these, the mistakes which were most present were the model mistaking the roman font for the august font and the augustus font being mistakem for the vesta font, both of these mistakes were made twice by the model. These mistakes are also visualised in the correlation matrix presented below. 
 
-    ![Model 2 Confusion Matrix](readme_accomp/Model_2_Correlation_Matrix.png)
+    ![Model 2 Confusion Matrix](Model_2_Correlation_Matrix.png)
     *Figure 5: Confusion Matrix for Model 2*
 
 6. Conclusions – List some concluding remarks. In particular: o Summarize in one paragraph the take-away point from your work. o Include one paragraph to explain what questions may not be fully answered by your work as well as natural next steps for this direction of future work.
