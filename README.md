@@ -74,7 +74,7 @@ Neural Font Classification for Ancient Text Digitization
 
     The classification report showcases the strong performance across all 11 font classes, with an overall accuracy of 96%. Most of the fonts showcase an F1-score of over 0.95 with the exception of the augustus font which the model had a harder time in classifying when compared to the rest. Fonts like consul, forum and trajan were classified with 100% accuracy. All of these results together highlight the excellent performance of the model in recognizing and classifying the fonts from the sample. 
 
-    ### Top 10 Worst Mistakes
+    ### Worst Classifying Mistakes
 
     - **True:** *roman* → **Predicted:** *augustus* (Mistakes: 2)  
     - **True:** *augustus* → **Predicted:** *vesta* (Mistakes: 2)  
